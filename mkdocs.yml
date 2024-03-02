@@ -28,16 +28,20 @@ theme:
       accent: lime
 
 plugins:
+  - search:
+  - localsearch
+
+plugins:
   - social
 
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/james-willett
+      link: https://github.com/sebastiansukstorf
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/TheJamesWillett
+      link: https://twitter.com/sukstorf
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/willettjames/
+      link: https://www.linkedin.com/in/sebastian-sukstorf/
 
 markdown_extensions:
   - pymdownx.highlight:
