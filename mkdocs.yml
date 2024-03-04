@@ -1,4 +1,4 @@
-site_name: MkDocs YouTube Tutorial
+site_name: Sebastian Sukstorf
 site_url: hhttps://github.com/sebastiansukstorf/mkdocs.git
 theme:
   name: material
@@ -62,7 +62,11 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.mark
   - attr_list
+  - def_list
   - md_in_html
+  - toc:
+      permalink: true
+  - tables
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
